@@ -1,0 +1,49 @@
+{
+  "exams": [
+    {
+      "id": 1,
+      "subject": "Mathematics",
+      "date": "2026-04-08",
+      "time": "09:00 AM",
+      "duration": "3 hours",
+      "room": "Hall A - Block 1",
+      "notes": "Bring scientific calculator. No programmable calculators allowed."
+    },
+    {
+      "id": 2,
+      "subject": "Physics",
+      "date": "2026-04-11",
+      "time": "02:00 PM",
+      "duration": "3 hours",
+      "room": "Hall B - Block 2",
+      "notes": "Formula sheet will be provided. Bring your student ID."
+    },
+    {
+      "id": 3,
+      "subject": "Computer Science",
+      "date": "2026-04-14",
+      "time": "10:00 AM",
+      "duration": "2.5 hours",
+      "room": "Lab 3 - Block 4",
+      "notes": "Written exam, no computers allowed."
+    },
+    {
+      "id": 4,
+      "subject": "Chemistry",
+      "date": "2026-04-17",
+      "time": "09:00 AM",
+      "duration": "3 hours",
+      "room": "Hall C - Block 1",
+      "notes": "Periodic table provided. No external material."
+    },
+    {
+      "id": 5,
+      "subject": "English Literature",
+      "date": "2026-04-21",
+      "time": "01:00 PM",
+      "duration": "2 hours",
+      "room": "Room 201 - Block 3",
+      "notes": "Essay format exam. Bring extra pens."
+    }
+  ]
+}

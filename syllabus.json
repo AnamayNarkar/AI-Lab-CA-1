@@ -1,0 +1,177 @@
+{
+  "subjects": [
+    {
+      "name": "Mathematics",
+      "totalTopics": 16,
+      "modules": [
+        {
+          "name": "Calculus",
+          "topics": [
+            "Limits and Continuity",
+            "Differentiation Rules",
+            "Applications of Derivatives",
+            "Integration Techniques",
+            "Definite Integrals",
+            "Differential Equations"
+          ]
+        },
+        {
+          "name": "Linear Algebra",
+          "topics": [
+            "Matrices and Determinants",
+            "Systems of Linear Equations",
+            "Eigenvalues and Eigenvectors",
+            "Vector Spaces"
+          ]
+        },
+        {
+          "name": "Probability & Statistics",
+          "topics": [
+            "Probability Distributions",
+            "Hypothesis Testing",
+            "Regression Analysis",
+            "Bayesian Inference",
+            "Statistical Inference",
+            "Random Variables"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Physics",
+      "totalTopics": 14,
+      "modules": [
+        {
+          "name": "Classical Mechanics",
+          "topics": [
+            "Newton's Laws of Motion",
+            "Work, Energy and Power",
+            "Rotational Dynamics",
+            "Gravitation"
+          ]
+        },
+        {
+          "name": "Electromagnetism",
+          "topics": [
+            "Electric Fields and Potential",
+            "Gauss's Law",
+            "Magnetic Fields",
+            "Electromagnetic Induction",
+            "Maxwell's Equations"
+          ]
+        },
+        {
+          "name": "Modern Physics",
+          "topics": [
+            "Special Relativity",
+            "Quantum Mechanics Basics",
+            "Photoelectric Effect",
+            "Nuclear Physics",
+            "Wave-Particle Duality"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Computer Science",
+      "totalTopics": 15,
+      "modules": [
+        {
+          "name": "Data Structures",
+          "topics": [
+            "Arrays and Linked Lists",
+            "Stacks and Queues",
+            "Trees and Graphs",
+            "Hash Tables",
+            "Heaps"
+          ]
+        },
+        {
+          "name": "Algorithms",
+          "topics": [
+            "Sorting Algorithms",
+            "Searching Algorithms",
+            "Dynamic Programming",
+            "Greedy Algorithms",
+            "Graph Algorithms"
+          ]
+        },
+        {
+          "name": "Theory of Computation",
+          "topics": [
+            "Finite Automata",
+            "Context-Free Grammars",
+            "Turing Machines",
+            "Complexity Classes",
+            "NP-Completeness"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chemistry",
+      "totalTopics": 13,
+      "modules": [
+        {
+          "name": "Physical Chemistry",
+          "topics": [
+            "Thermodynamics",
+            "Chemical Kinetics",
+            "Electrochemistry",
+            "Phase Equilibria"
+          ]
+        },
+        {
+          "name": "Organic Chemistry",
+          "topics": [
+            "Reaction Mechanisms",
+            "Functional Groups",
+            "Stereochemistry",
+            "Named Reactions",
+            "Spectroscopic Analysis"
+          ]
+        },
+        {
+          "name": "Inorganic Chemistry",
+          "topics": [
+            "Coordination Compounds",
+            "Periodic Trends",
+            "Transition Metals",
+            "Acid-Base Theories"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "English Literature",
+      "totalTopics": 10,
+      "modules": [
+        {
+          "name": "Poetry Analysis",
+          "topics": [
+            "Romantic Poetry",
+            "Modernist Verse",
+            "Poetic Devices and Meter"
+          ]
+        },
+        {
+          "name": "Prose and Fiction",
+          "topics": [
+            "Victorian Novels",
+            "20th Century Fiction",
+            "Narrative Techniques",
+            "Character Analysis"
+          ]
+        },
+        {
+          "name": "Critical Writing",
+          "topics": [
+            "Essay Structure",
+            "Literary Criticism Schools",
+            "Comparative Analysis"
+          ]
+        }
+      ]
+    }
+  ]
+}

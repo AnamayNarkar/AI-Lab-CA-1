@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alex",
+      "email": "alex@university.edu",
+      "completedTopics": {
+        "Mathematics": [
+          "Limits and Continuity",
+          "Differentiation Rules",
+          "Applications of Derivatives",
+          "Matrices and Determinants",
+          "Systems of Linear Equations"
+        ],
+        "Physics": [
+          "Newton's Laws of Motion",
+          "Work, Energy and Power",
+          "Electric Fields and Potential",
+          "Gauss's Law"
+        ],
+        "Computer Science": [
+          "Arrays and Linked Lists",
+          "Stacks and Queues",
+          "Trees and Graphs",
+          "Sorting Algorithms",
+          "Searching Algorithms",
+          "Finite Automata"
+        ],
+        "Chemistry": [
+          "Thermodynamics",
+          "Chemical Kinetics"
+        ],
+        "English Literature": [
+          "Romantic Poetry",
+          "Essay Structure"
+        ]
+      }
+    }
+  ]
+}
