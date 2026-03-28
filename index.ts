@@ -10,12 +10,12 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.get("/",(req: Request, res: Response)=>{
-    res.send("manish pitey")
+    res.send("healthy")
 })
 
 app.post("/ask", async (req: Request, res: Response)=>{
     const query: string = req.body.user_query;
-    return await runAgent(query);
+    res.send(await runAgent(query));
 })
 
 app.listen(3000, ()=>{

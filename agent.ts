@@ -42,10 +42,11 @@ async function getAgentExecutor(): Promise <AgentExecutor>{
 
 export async function runAgent(userMessage: string) : Promise<string> {
     const executor = getAgentExecutor();
-    const result = (await executor).invoke(
+    const result = await (await executor).invoke(
         {input: userMessage},
     )
-    console.log(result)
+    console.log(typeof(result));
+    console.log("debug 1")
     // const output = ( result.output as string).trim();
-    return "test";
+    return result.output;
 }
