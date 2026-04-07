@@ -3,7 +3,7 @@
     {
       "id": 1,
       "subject": "Mathematics",
-      "date": "2026-04-08",
+      "date": "2026-04-20",
       "time": "09:00 AM",
       "duration": "3 hours",
       "room": "Hall A - Block 1",
@@ -12,7 +12,7 @@
     {
       "id": 2,
       "subject": "Physics",
-      "date": "2026-04-11",
+      "date": "2026-04-25",
       "time": "02:00 PM",
       "duration": "3 hours",
       "room": "Hall B - Block 2",
@@ -21,7 +21,7 @@
     {
       "id": 3,
       "subject": "Computer Science",
-      "date": "2026-04-14",
+      "date": "2026-04-30",
       "time": "10:00 AM",
       "duration": "2.5 hours",
       "room": "Lab 3 - Block 4",
@@ -30,7 +30,7 @@
     {
       "id": 4,
       "subject": "Chemistry",
-      "date": "2026-04-17",
+      "date": "2026-05-5",
       "time": "09:00 AM",
       "duration": "3 hours",
       "room": "Hall C - Block 1",
@@ -39,7 +39,7 @@
     {
       "id": 5,
       "subject": "English Literature",
-      "date": "2026-04-21",
+      "date": "2026-05-10",
       "time": "01:00 PM",
       "duration": "2 hours",
       "room": "Room 201 - Block 3",

@@ -1,6 +1,6 @@
 import { AgentExecutor, createToolCallingAgent, type AgentAction } from "langchain/agents";
 import { ChatOpenAI } from "@langchain/openai";
-import { allTools } from "./tools.js";
+import { allTools } from "./tools";
 import { ChatPromptTemplate } from "@langchain/core/prompts";
 import { BaseCallbackHandler } from "@langchain/core/callbacks/base";
 
@@ -9,8 +9,16 @@ if (!process.env.OPENROUTER_API_KEY){
 }
 const openRouterApiKey: string = process.env.OPENROUTER_API_KEY;
 
-const SYSTEM_PROMPT: string = " you are  a hemplful agentic study/academic planner for alex, help him ahis tasks forstuying based on the tools provided to you. if query is irrelvant discard it saying u better study alex"
-
+const SYSTEM_PROMPT: string = `
+    current date is ${new Date().toLocaleDateString()}
+    you are a helpful agentic study/academic planner 
+    for alex, help him with his tasks
+    for studying based on the tools provided to you. 
+    if a user asks a question about making a study plan, use the current date and the timetable dates 
+    to make a dayby day study plan for alex, for the topics which he has yet to study, 
+    very important: add prerequiestses per topic he should brushup
+    if query is irrelvant discard it saying 'u better study alex'`
+    
 let executorInstance:AgentExecutor|null=null;
 async function getAgentExecutor(): Promise <AgentExecutor>{
     if (executorInstance) return executorInstance;
